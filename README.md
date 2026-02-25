@@ -30,7 +30,7 @@ and fault detection behavior, demonstrating the functional correctness and flexi
 proposed parameterized MBIST design.
 
 ---
-# Flowchart
+## Flowchart
 
 ![flo](flowchart.png)
 
@@ -53,7 +53,7 @@ being declared functional, and the MBIST operation is terminated with a pass sta
 memory accesses once a fault is identified.
 
 ---
-# Limitations:  
+## Limitations:  
 - The current MBIST implementation supports only a checkerboard testing algorithm and 
 does not include standard March-based tests. 
 - Fault coverage is limited to the modeled memory behavior and does not include advanced 
