@@ -42,13 +42,16 @@ correct sequencing of write and read operations as per the checkerboard testing 
 required data patterns are written to the memory and subsequently read back without any 
 mismatch. During the compare phase, the read data is found to be equal to the expected pattern 
 for all memory locations. Upon successful completion of the test, the controller asserts the done 
-signal while the fail signal remains deasserted, indicating a pass condition. 
+signal while the fail signal remains deasserted, indicating a pass condition.  
+
 ![no_err](mbist_no_error.png)
 
+  
 The simulation waveform of the MBIST controller under fault conditions illustrates correct 
 detection of a memory error at address 4. During the read and compare phase, a data mismatch 
 is observed, causing the controller to assert the fail signal and capture the corresponding fault 
 address. The done signal is asserted along with the failure indication, confirming test 
 termination. Further memory operations are halted immediately after fault detection, 
-demonstrating the controller’s early-exit capability. 
+demonstrating the controller’s early-exit capability.  
+
 ![no_err](mbist_error.png)
