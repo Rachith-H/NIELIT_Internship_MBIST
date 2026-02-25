@@ -26,7 +26,7 @@ execution.
 ---
 ## RTL Schematic
 
-![sch_addr_gen](Address%20Generator/addr_gen.png)
+![sch_addr_gen](addr_gen.png)
 
 ---
 
@@ -38,5 +38,5 @@ value is cleared to zero, regardless of the clock state. When the enable signal 
 address remains constant, indicating that counting is paused. Reasserting the enable signal 
 resumes sequential address generation from the reset or last stored value. 
 
-![sch_addr_gen](Address%20Generator/addr_gen_op.png)
+![sch_addr_gen](addr_gen_op.png)
 
