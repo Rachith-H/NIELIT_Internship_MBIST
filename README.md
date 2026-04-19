@@ -32,7 +32,7 @@ proposed parameterized MBIST design.
 ---
 ## Flowchart
 
-![flo](flowchart.png)
+![flo](Images/flowchart.png)
 
 - The MBIST process is initiated upon assertion of the start signal, enabling the controller to 
 take control of memory access through the test interface. 
